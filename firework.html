@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>代码烟花</title>
+    <style>
+        html,
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            background-image: url(http://a1.qpic.cn/psc?/V52yekvb1HVNok1u1ge73NAH8i2Kyldg/8v1c6OdZLSE3kzDE6fnRyqDdLKaaXG60OVghQvERAKnzcelrUv7ebmNATaQA.n5qDcP7tJ0*7Wkc6aedc0D9KAW7QmwqfFDee0m32dJ2kB8!/b&ek=1&kp=1&pt=0&bo=.wU4BPsFOAQRADc!&tl=3&vuin=1497551433&tm=1613206800&sce=60-2-2&rf=viewer_311);
+            background-size: 100% 100%;
+            background-size: 100%; 
+            background-repeat:no-repeat;
+        }
+
+        .demo {
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+        }
+
+        h1 {
+            margin: 150px auto 30px auto;
+            text-align: center;
+            font-family: 'Roboto';
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo">
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="fireworks.js"></script>
+    <script>
+        $('.demo').fireworks({
+            sound: true,
+            opacity: 0.6,
+            width: '100%',
+            height: '100%'
+        });
+    </script>
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 style="position:absolute;left:0px;top:0px" src="https://music.163.com/outchain/player?type=2&id=496869422&auto=1&height=66">
+    </iframe>
+</body>
+
+</html>
